@@ -1,0 +1,219 @@
+body {
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #353434;
+}
+
+.main-title {
+  width: 500px;
+  margin:auto;
+  font-family: 'Share Tech Mono', monospace;
+  color: rgb(0, 255, 0);
+  font-size:80px;
+  top:70px;
+  position: relative;
+  text-shadow: 3px 3px 0px black;
+  transition: 0.5s;
+}
+
+
+
+.michroma {
+  font-family: 'Michroma', sans-serif;
+}
+
+.damion {
+  font-family: 'Damion', cursive;
+}
+
+.menu {
+  position: fixed;
+  height: 100%;
+  width: 80px;
+  background: #353434;
+  transition:width 1s;
+  overflow: hidden;
+  font-family: 'Nova Mono', monospace;
+
+  z-index: 99;
+  color: rgb(0, 255, 0);
+}
+
+.cpu {
+  border-left:5px solid  rgb(0, 255, 0);
+  transition: 1s;
+  height: 30px;
+  width: 0;
+
+}
+
+.cpu:hover{
+  border-left:20px solid  rgb(0, 255, 0);
+  transition: 1s;
+  width: 0;
+}
+
+.gpu {
+ border-left:5px solid rgb(0, 255, 0);
+ transition: 1s;
+ width: 0;
+
+}
+
+.gpu:hover {
+ border-left:20px solid rgb(0, 255, 0);
+ transition: 1s;
+ width: 0;
+
+}
+
+.mobo {
+  border-left:5px solid  rgb(0, 255, 0);
+  transition: 1s;
+  width: 0;
+
+}
+
+.mobo:hover {
+  border-left:20px solid rgb(0, 255, 0);
+  transition: 1s;
+  width: 0;
+
+}
+
+.psu {
+  border-left:5px solid rgb(0, 255, 0);
+  transition: 1s;
+  width: 0;
+
+}
+
+.psu:hover {
+  border-left:20px solid rgb(0, 255, 0);
+  transition: 1s;
+  width: 0;
+
+}
+
+.case {
+ border-left:5px solid  rgb(0, 255, 0);
+ transition: 1s;
+ width: 0;
+
+}
+
+.case:hover {
+ border-left:20px solid rgb(0, 255, 0);
+ transition: 1s;
+
+ 
+}
+
+.menu:hover {
+  width: 166px;
+}
+
+.menuItem {
+  position: relative;
+  padding: 20px;
+  transition:border .5s, background .2s;  
+}
+
+.menuItem span {
+  position: absolute;
+  left:80px;
+  top:20px;
+  color: whtie;
+}
+
+.hr-1 {
+  border: none;
+}
+
+@media only screen and (max-width: 703px) {
+  .main-title {
+    font-size: 60px;
+    margin-left: 120px;
+  }
+  
+  p.main-title {
+    font-size: 40px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 660px) {
+  .main-title {
+    font-size: 40px;
+    margin-left: 250px;
+  }
+}
+
+
+@media only screen and (max-width: 588px) {
+  .main-title {
+    font-size: 30px;
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  .main-title {
+    font-size: 30px;
+    margin-left: 120px;
+  }
+  p.main-title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .main-title {
+    font-size: 30px;
+    margin-left: 120px;
+  }
+}
+
+
+a {
+  color: rgb(0, 255, 0);
+}
+
+a:hover {
+  color: #077c10;
+}
+
+.main-p {
+  font-family: 'Share Tech Mono', monospace;
+  color: rgb(0, 255, 0);
+  font-size:30px;
+  text-shadow: 3px 3px 0px black;
+  transition: 0.5s;
+  margin-top: 100px;
+}
+
+.container  {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main-p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 387px) {
+  .main-p {
+    margin-left: 100px;
+
+  }
+}
+.black {
+  background: white;
+}
