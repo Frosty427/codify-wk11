@@ -7,15 +7,15 @@ body {
 }
 
 .main-title {
-  width: 500px;
+  width: 35%;
   margin:auto;
   font-family: 'Share Tech Mono', monospace;
   color: rgb(0, 255, 0);
-  font-size:80px;
+  font-size:32px;
   top:70px;
   position: relative;
   text-shadow: 3px 3px 0px black;
-  transition: 0.5s;
+  transition: 2s;
 }
 
 
@@ -32,8 +32,8 @@ body {
   position: fixed;
   height: 100%;
   width: 80px;
-  background: #353434;
-  transition:width 1s;
+  background:  #0d0d0d;
+  transition:width 0.5s;
   overflow: hidden;
   font-family: 'Nova Mono', monospace;
 
@@ -43,7 +43,7 @@ body {
 
 .cpu {
   border-left:5px solid  rgb(0, 255, 0);
-  transition: 1s;
+  transition: 0.5s;
   height: 30px;
   width: 0;
 
@@ -51,68 +51,68 @@ body {
 
 .cpu:hover{
   border-left:20px solid  rgb(0, 255, 0);
-  transition: 1s;
+  transition: 0.5s;
   width: 0;
 }
 
 .gpu {
  border-left:5px solid rgb(0, 255, 0);
- transition: 1s;
+ transition: 0.5s;
  width: 0;
 
 }
 
 .gpu:hover {
  border-left:20px solid rgb(0, 255, 0);
- transition: 1s;
+ transition: 0.5s;
  width: 0;
 
 }
 
 .mobo {
   border-left:5px solid  rgb(0, 255, 0);
-  transition: 1s;
+  transition: 0.5s;
   width: 0;
 
 }
 
 .mobo:hover {
   border-left:20px solid rgb(0, 255, 0);
-  transition: 1s;
+  transition: 0.5s;
   width: 0;
 
 }
 
 .psu {
   border-left:5px solid rgb(0, 255, 0);
-  transition: 1s;
+  transition: 0.5s;
   width: 0;
 
 }
 
 .psu:hover {
   border-left:20px solid rgb(0, 255, 0);
-  transition: 1s;
+  transition: 0.5s;
   width: 0;
 
 }
 
 .case {
  border-left:5px solid  rgb(0, 255, 0);
- transition: 1s;
+ transition: 0.5s;
  width: 0;
 
 }
 
 .case:hover {
  border-left:20px solid rgb(0, 255, 0);
- transition: 1s;
+ transition: 0.5s;
 
  
 }
 
 .menu:hover {
-  width: 166px;
+  width: 200px;
 }
 
 .menuItem {
@@ -216,4 +216,9 @@ a:hover {
 }
 .black {
   background: white;
+}
+
+
+.menuItem {
+  transition: 0.5s;
 }
